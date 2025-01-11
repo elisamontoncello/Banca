@@ -68,9 +68,15 @@ namespace Banca
 
         private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Hide(); 
-            Login_Form loginForm = new Login_Form(); 
+            this.Hide();
+            Login_Form loginForm = new Login_Form();
             loginForm.Show();
+        }
+
+        private void salvadanioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Salvadanaio salvadanaio = new Salvadanaio(creditoIniziale);
+            salvadanaio.Show();
         }
     }
 }

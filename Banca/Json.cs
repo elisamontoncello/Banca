@@ -17,11 +17,6 @@ namespace Banca
                 if (File.Exists(FilePath))
                 {
                     File.Delete(FilePath);
-                    MessageBox.Show("File dati.json eliminato.");
-                }
-                else
-                {
-                    MessageBox.Show("Il file dati.json non esiste.");
                 }
             }
             catch (Exception ex)

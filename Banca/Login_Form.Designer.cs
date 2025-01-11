@@ -41,7 +41,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(52, 85);
+            label1.Location = new Point(509, 152);
             label1.Name = "label1";
             label1.Size = new Size(84, 21);
             label1.TabIndex = 0;
@@ -50,7 +50,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(52, 144);
+            label2.Location = new Point(509, 243);
             label2.Name = "label2";
             label2.Size = new Size(76, 21);
             label2.TabIndex = 1;
@@ -58,19 +58,20 @@
             // 
             // button1
             // 
-            button1.Location = new Point(200, 217);
+            button1.BackColor = Color.FromArgb(192, 192, 255);
+            button1.Location = new Point(786, 313);
             button1.Name = "button1";
-            button1.Size = new Size(94, 29);
+            button1.Size = new Size(106, 43);
             button1.TabIndex = 2;
             button1.Text = "Login";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(189, 23);
+            label3.Location = new Point(613, 30);
             label3.Name = "label3";
             label3.Size = new Size(415, 23);
             label3.TabIndex = 3;
@@ -78,7 +79,7 @@
             // 
             // passtxt
             // 
-            passtxt.Location = new Point(255, 136);
+            passtxt.Location = new Point(724, 235);
             passtxt.Name = "passtxt";
             passtxt.PasswordChar = '*';
             passtxt.Size = new Size(213, 29);
@@ -86,18 +87,19 @@
             // 
             // button2
             // 
-            button2.Location = new Point(374, 280);
+            button2.BackColor = Color.FromArgb(192, 192, 255);
+            button2.Location = new Point(1182, 450);
             button2.Name = "button2";
             button2.Size = new Size(282, 87);
             button2.TabIndex = 6;
             button2.Text = "Registrati se non possiedi un \r\naccount!";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
             // checkBoxPassword
             // 
             checkBoxPassword.AutoSize = true;
-            checkBoxPassword.Location = new Point(483, 138);
+            checkBoxPassword.Location = new Point(1061, 242);
             checkBoxPassword.Name = "checkBoxPassword";
             checkBoxPassword.Size = new Size(81, 25);
             checkBoxPassword.TabIndex = 7;
@@ -107,7 +109,7 @@
             // 
             // usrtxt
             // 
-            usrtxt.Location = new Point(255, 77);
+            usrtxt.Location = new Point(724, 144);
             usrtxt.Name = "usrtxt";
             usrtxt.Size = new Size(213, 29);
             usrtxt.TabIndex = 8;
@@ -117,7 +119,8 @@
             AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            ClientSize = new Size(800, 450);
+            BackColor = SystemColors.GradientInactiveCaption;
+            ClientSize = new Size(1771, 777);
             Controls.Add(usrtxt);
             Controls.Add(checkBoxPassword);
             Controls.Add(button2);
@@ -128,7 +131,6 @@
             Controls.Add(label1);
             Name = "Login_Form";
             Text = "Login_Form";
-            FormClosing += Login_Form_FormClosing;
             ResumeLayout(false);
             PerformLayout();
         }

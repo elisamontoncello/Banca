@@ -24,8 +24,6 @@ namespace Banca
             InitializeComponent();
             random = new Random();
             GenerateRandomNumberInTextBox();
-            
-
         }
 
         private void GenerateRandomNumberInTextBox()
@@ -53,6 +51,8 @@ namespace Banca
             public string Indirizzo { get; set; }
             public string Nazionalita { get; set; }
             public string Mansione { get; set; }
+            public DateTime DataNascita {  get; set; }
+            public string NumeroRandom { get; set; }
         }
 
         private string filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "dati.json");
@@ -68,7 +68,9 @@ namespace Banca
                 Telefono = telefonotxt.Text,
                 Indirizzo = indirizzotxt.Text,
                 Nazionalita = nazionalitatxt.Text,
-                Mansione = mansionetxt.Text
+                Mansione = mansionetxt.Text,
+                DataNascita = dateTimePicker1.Value,
+                NumeroRandom = randomTxt.Text
             };
 
             var json = JsonSerializer.Serialize(dati);
@@ -89,6 +91,8 @@ namespace Banca
                 indirizzotxt.Text = dati.Indirizzo;
                 nazionalitatxt.Text = dati.Nazionalita;
                 mansionetxt.Text = dati.Mansione;
+                dateTimePicker1.Value = dati.DataNascita;
+                randomTxt.Text = dati.NumeroRandom;
             }
         }
 

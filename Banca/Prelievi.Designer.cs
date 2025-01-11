@@ -39,20 +39,22 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(151, 25);
+            label1.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(598, 28);
             label1.Name = "label1";
-            label1.Size = new Size(477, 21);
+            label1.Size = new Size(565, 23);
             label1.TabIndex = 0;
             label1.Text = "Effettua un prelievo tramite l'app e recati in posta a ritirare il denato";
             // 
             // prelievoBtn
             // 
-            prelievoBtn.Location = new Point(316, 230);
+            prelievoBtn.BackColor = Color.FromArgb(192, 192, 255);
+            prelievoBtn.Location = new Point(1102, 324);
             prelievoBtn.Name = "prelievoBtn";
-            prelievoBtn.Size = new Size(94, 29);
+            prelievoBtn.Size = new Size(102, 50);
             prelievoBtn.TabIndex = 3;
             prelievoBtn.Text = "Preleva";
-            prelievoBtn.UseVisualStyleBackColor = true;
+            prelievoBtn.UseVisualStyleBackColor = false;
             prelievoBtn.Click += prelievoBtn_Click;
             // 
             // saldoLbl
@@ -66,7 +68,7 @@
             // numericUpDown1
             // 
             numericUpDown1.Increment = new decimal(new int[] { 200, 0, 0, 0 });
-            numericUpDown1.Location = new Point(289, 161);
+            numericUpDown1.Location = new Point(807, 195);
             numericUpDown1.Maximum = new decimal(new int[] { 1000000, 0, 0, 0 });
             numericUpDown1.Name = "numericUpDown1";
             numericUpDown1.Size = new Size(150, 29);
@@ -75,8 +77,9 @@
             // 
             // creditoTxt
             // 
-            creditoTxt.Location = new Point(238, 81);
+            creditoTxt.Location = new Point(739, 110);
             creditoTxt.Name = "creditoTxt";
+            creditoTxt.ReadOnly = true;
             creditoTxt.Size = new Size(281, 29);
             creditoTxt.TabIndex = 14;
             // 
@@ -84,7 +87,8 @@
             // 
             AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackColor = SystemColors.GradientInactiveCaption;
+            ClientSize = new Size(1769, 743);
             Controls.Add(creditoTxt);
             Controls.Add(numericUpDown1);
             Controls.Add(saldoLbl);

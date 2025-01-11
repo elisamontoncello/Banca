@@ -60,13 +60,12 @@ namespace Banca
         private void infobtn_Click(object sender, EventArgs e)
         {
             string terminiCondizioni = "Termini e Condizioni di Adesione alla Carta di Credito:\n" +
-                                       "1. Procedura di Adesione: Richiesta online, valutazione del credito, emissione della carta.\n" +
-                                       "2. Diritto di Ripensamento: Annullamento entro 14 giorni.\n" +
-                                       "3. Uso della Carta: Pagamenti in negozi, online, prelievi ATM, limiti di credito.\n" +
-                                       "4. Rimborso e Interessi: Saldo rimborsabile in rate mensili o un'unica soluzione, TAEG.\n" +
-                                       "5. Commissioni: Utilizzo, gestione carta, prelievi e operazioni all'estero.\n" +
-                                       "6. Risolvere le Controversie: Contattare il servizio clienti, arbitrato dei consumatori.\n" +
-                                       "7. Modifiche ai Termini: La banca può modificare i termini, con preavviso.";
+                                       "1. Procedura di Adesione: Richiesta, emissione della carta che si ritira preso le Poste.\n" +
+                                       "2. Diritto di Ripensamento: Annullamento entro 14 giorni, presso le Poste.\n" +
+                                       "3. Uso della Carta: Pagamenti in negozi, online, prelievi ATM.\n" +
+                                       "4. Rimborso e Interessi: Saldo rimborsabile in rate mensili o un'unica soluzione.\n" +
+                                       "5. Zero Commissioni: Utilizzo, gestione carta, prelievi e operazioni all'estero.\n" +
+                                       "6. Modifiche ai Termini: La banca può modificare i termini, con preavviso.";
 
             MessageBox.Show(terminiCondizioni, "Termini e Condizioni", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
@@ -76,9 +75,9 @@ namespace Banca
         {
             string messaggio = "Benvenuti nel futuro dei pagamenti con la nostra nuova Carta di Credito!\n\n" +
                               "Siamo entusiasti di presentarvi la Carta di Credito X, che offre sicurezza avanzata " +
-                              "per proteggere i tuoi dati e transazioni. È accettata in milioni di punti vendita e " +
+                              "per proteggere i tuoi dati e transazioni. \n È accettata in milioni di punti vendita e " +
                               "servizi online in tutto il mondo. Con la nostra app mobile, potrai gestire le tue " +
-                              "finanze in tempo reale e bloccare temporaneamente la carta in caso di smarrimento o furto.";
+                              "finanze in tempo reale.";
 
             MessageBox.Show(messaggio, "Informazioni sulla Carta di Credito", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }

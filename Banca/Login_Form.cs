@@ -19,7 +19,6 @@ namespace Banca
         {
             InitializeComponent();
             utenti = new List<Utente>();
-            this.FormClosing += new FormClosingEventHandler(Login_Form_FormClosing); MessageBox.Show("LoginForm inizializzato e evento FormClosing associato.");
         }
 
 
@@ -27,8 +26,6 @@ namespace Banca
         {
             string nomeUtenteInserito = usrtxt.Text.Trim();
             string passwordInserita = passtxt.Text.Trim();
-
-            MessageBox.Show("Utenti totali al login: " + utenti.Count);
 
             Utente utenteLoggato = null;
 
@@ -43,6 +40,7 @@ namespace Banca
 
             if (utenteLoggato != null)
             {
+                Json.EliminaFileJson();
                 this.Hide();
                 Menu m = new Menu();
                 m.FormClosed += Menu_FormClosed; // Chiudi il form di login quando il form Menu viene chiuso
@@ -74,13 +72,6 @@ namespace Banca
             {
                 passtxt.PasswordChar = '*'; // Maschera i caratteri
             }
-        }
-
-       
-
-        private void Login_Form_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            Json.EliminaFileJson();
         }
     }
 }

@@ -42,7 +42,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(87, 81);
+            label1.Location = new Point(474, 126);
             label1.Name = "label1";
             label1.Size = new Size(84, 21);
             label1.TabIndex = 1;
@@ -51,7 +51,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(87, 128);
+            label2.Location = new Point(474, 194);
             label2.Name = "label2";
             label2.Size = new Size(112, 21);
             label2.TabIndex = 2;
@@ -59,19 +59,20 @@
             // 
             // button1
             // 
-            button1.Location = new Point(333, 220);
+            button1.BackColor = Color.FromArgb(192, 192, 255);
+            button1.Location = new Point(787, 277);
             button1.Name = "button1";
-            button1.Size = new Size(124, 29);
+            button1.Size = new Size(130, 38);
             button1.TabIndex = 3;
             button1.Text = "Registrati";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(172, 18);
+            label3.Location = new Point(631, 22);
             label3.Name = "label3";
             label3.Size = new Size(469, 23);
             label3.TabIndex = 4;
@@ -79,14 +80,14 @@
             // 
             // usrtxtR
             // 
-            usrtxtR.Location = new Point(286, 73);
+            usrtxtR.Location = new Point(736, 118);
             usrtxtR.Name = "usrtxtR";
             usrtxtR.Size = new Size(219, 29);
             usrtxtR.TabIndex = 5;
             // 
             // passtxtR
             // 
-            passtxtR.Location = new Point(286, 120);
+            passtxtR.Location = new Point(736, 186);
             passtxtR.Name = "passtxtR";
             passtxtR.PasswordChar = '*';
             passtxtR.Size = new Size(219, 29);
@@ -95,7 +96,7 @@
             // checkBoxPassword
             // 
             checkBoxPassword.AutoSize = true;
-            checkBoxPassword.Location = new Point(530, 122);
+            checkBoxPassword.Location = new Point(1042, 186);
             checkBoxPassword.Name = "checkBoxPassword";
             checkBoxPassword.Size = new Size(81, 25);
             checkBoxPassword.TabIndex = 7;
@@ -105,29 +106,32 @@
             // 
             // infobtn
             // 
-            infobtn.Location = new Point(736, 409);
+            infobtn.BackColor = Color.FromArgb(192, 192, 255);
+            infobtn.Location = new Point(1250, 421);
             infobtn.Name = "infobtn";
-            infobtn.Size = new Size(52, 29);
+            infobtn.Size = new Size(96, 67);
             infobtn.TabIndex = 9;
             infobtn.Text = "!";
-            infobtn.UseVisualStyleBackColor = true;
+            infobtn.UseVisualStyleBackColor = false;
             infobtn.Click += infobtn_Click;
             // 
             // chisiamoBtn
             // 
-            chisiamoBtn.Location = new Point(676, 410);
+            chisiamoBtn.BackColor = Color.FromArgb(192, 192, 255);
+            chisiamoBtn.Location = new Point(1135, 421);
             chisiamoBtn.Name = "chisiamoBtn";
-            chisiamoBtn.Size = new Size(54, 28);
+            chisiamoBtn.Size = new Size(94, 67);
             chisiamoBtn.TabIndex = 10;
             chisiamoBtn.Text = "?";
-            chisiamoBtn.UseVisualStyleBackColor = true;
+            chisiamoBtn.UseVisualStyleBackColor = false;
             chisiamoBtn.Click += chisiamoBtn_Click;
             // 
             // Registrazione_Form
             // 
             AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackColor = SystemColors.GradientInactiveCaption;
+            ClientSize = new Size(1780, 743);
             Controls.Add(chisiamoBtn);
             Controls.Add(infobtn);
             Controls.Add(checkBoxPassword);

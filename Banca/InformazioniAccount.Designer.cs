@@ -56,7 +56,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Showcard Gothic", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(358, 18);
+            label1.Location = new Point(709, 46);
             label1.Name = "label1";
             label1.Size = new Size(245, 21);
             label1.TabIndex = 0;
@@ -65,7 +65,7 @@
             // Label2
             // 
             Label2.AutoSize = true;
-            Label2.Location = new Point(369, 61);
+            Label2.Location = new Point(735, 94);
             Label2.Name = "Label2";
             Label2.Size = new Size(42, 21);
             Label2.TabIndex = 1;
@@ -74,7 +74,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(12, 123);
+            label4.Location = new Point(632, 151);
             label4.Name = "label4";
             label4.Size = new Size(126, 21);
             label4.TabIndex = 3;
@@ -83,7 +83,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(12, 170);
+            label5.Location = new Point(665, 252);
             label5.Name = "label5";
             label5.Size = new Size(53, 21);
             label5.TabIndex = 4;
@@ -92,7 +92,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(14, 259);
+            label7.Location = new Point(585, 370);
             label7.Name = "label7";
             label7.Size = new Size(59, 21);
             label7.TabIndex = 6;
@@ -101,7 +101,7 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(12, 311);
+            label8.Location = new Point(665, 426);
             label8.Name = "label8";
             label8.Size = new Size(59, 21);
             label8.TabIndex = 7;
@@ -110,7 +110,7 @@
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(12, 365);
+            label9.Location = new Point(975, 252);
             label9.Name = "label9";
             label9.Size = new Size(70, 21);
             label9.TabIndex = 8;
@@ -119,7 +119,7 @@
             // label10
             // 
             label10.AutoSize = true;
-            label10.Location = new Point(12, 418);
+            label10.Location = new Point(976, 314);
             label10.Name = "label10";
             label10.Size = new Size(69, 21);
             label10.TabIndex = 9;
@@ -128,7 +128,7 @@
             // label11
             // 
             label11.AutoSize = true;
-            label11.Location = new Point(12, 462);
+            label11.Location = new Point(975, 370);
             label11.Name = "label11";
             label11.Size = new Size(88, 21);
             label11.TabIndex = 10;
@@ -137,7 +137,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(12, 217);
+            label6.Location = new Point(646, 314);
             label6.Name = "label6";
             label6.Size = new Size(78, 21);
             label6.TabIndex = 13;
@@ -146,7 +146,7 @@
             // label14
             // 
             label14.AutoSize = true;
-            label14.Location = new Point(425, 470);
+            label14.Location = new Point(975, 426);
             label14.Name = "label14";
             label14.Size = new Size(78, 21);
             label14.TabIndex = 14;
@@ -154,7 +154,7 @@
             // 
             // randomTxt
             // 
-            randomTxt.Location = new Point(186, 120);
+            randomTxt.Location = new Point(817, 148);
             randomTxt.Name = "randomTxt";
             randomTxt.ReadOnly = true;
             randomTxt.Size = new Size(171, 29);
@@ -162,56 +162,56 @@
             // 
             // nazionalitatxt
             // 
-            nazionalitatxt.Location = new Point(186, 462);
+            nazionalitatxt.Location = new Point(1116, 362);
             nazionalitatxt.Name = "nazionalitatxt";
             nazionalitatxt.Size = new Size(171, 29);
             nazionalitatxt.TabIndex = 16;
             // 
             // indirizzotxt
             // 
-            indirizzotxt.Location = new Point(186, 418);
+            indirizzotxt.Location = new Point(1116, 306);
             indirizzotxt.Name = "indirizzotxt";
             indirizzotxt.Size = new Size(171, 29);
             indirizzotxt.TabIndex = 17;
             // 
             // telefonotxt
             // 
-            telefonotxt.Location = new Point(186, 365);
+            telefonotxt.Location = new Point(1116, 244);
             telefonotxt.Name = "telefonotxt";
             telefonotxt.Size = new Size(171, 29);
             telefonotxt.TabIndex = 18;
             // 
             // natotxt
             // 
-            natotxt.Location = new Point(186, 311);
+            natotxt.Location = new Point(747, 423);
             natotxt.Name = "natotxt";
             natotxt.Size = new Size(171, 29);
             natotxt.TabIndex = 19;
             // 
             // cognometxt
             // 
-            cognometxt.Location = new Point(186, 217);
+            cognometxt.Location = new Point(747, 306);
             cognometxt.Name = "cognometxt";
             cognometxt.Size = new Size(171, 29);
             cognometxt.TabIndex = 21;
             // 
             // nometxt
             // 
-            nometxt.Location = new Point(186, 170);
+            nometxt.Location = new Point(747, 244);
             nometxt.Name = "nometxt";
             nometxt.Size = new Size(171, 29);
             nometxt.TabIndex = 22;
             // 
             // mansionetxt
             // 
-            mansionetxt.Location = new Point(541, 467);
+            mansionetxt.Location = new Point(1116, 423);
             mansionetxt.Name = "mansionetxt";
-            mansionetxt.Size = new Size(156, 29);
+            mansionetxt.Size = new Size(171, 29);
             mansionetxt.TabIndex = 23;
             // 
             // dateTimePicker1
             // 
-            dateTimePicker1.Location = new Point(112, 259);
+            dateTimePicker1.Location = new Point(683, 364);
             dateTimePicker1.Name = "dateTimePicker1";
             dateTimePicker1.Size = new Size(257, 29);
             dateTimePicker1.TabIndex = 28;
@@ -219,7 +219,7 @@
             // dateLbl
             // 
             dateLbl.AutoSize = true;
-            dateLbl.Location = new Point(511, 61);
+            dateLbl.Location = new Point(867, 94);
             dateLbl.Name = "dateLbl";
             dateLbl.Size = new Size(73, 21);
             dateLbl.TabIndex = 29;
@@ -228,19 +228,21 @@
             // 
             // SalvaDatiBtn
             // 
-            SalvaDatiBtn.Location = new Point(878, 477);
+            SalvaDatiBtn.BackColor = Color.FromArgb(192, 192, 255);
+            SalvaDatiBtn.Location = new Point(1305, 536);
             SalvaDatiBtn.Name = "SalvaDatiBtn";
-            SalvaDatiBtn.Size = new Size(94, 29);
+            SalvaDatiBtn.Size = new Size(106, 64);
             SalvaDatiBtn.TabIndex = 30;
             SalvaDatiBtn.Text = "Invia";
-            SalvaDatiBtn.UseVisualStyleBackColor = true;
+            SalvaDatiBtn.UseVisualStyleBackColor = false;
             SalvaDatiBtn.Click += SalvaDatiBtn_Click_1;
             // 
             // InformazioniAccount
             // 
             AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(995, 538);
+            BackColor = SystemColors.GradientInactiveCaption;
+            ClientSize = new Size(1775, 742);
             Controls.Add(SalvaDatiBtn);
             Controls.Add(dateLbl);
             Controls.Add(dateTimePicker1);

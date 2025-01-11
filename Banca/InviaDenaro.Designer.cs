@@ -39,7 +39,7 @@
             // 
             // userNameTxt
             // 
-            userNameTxt.Location = new Point(332, 200);
+            userNameTxt.Location = new Point(796, 260);
             userNameTxt.Name = "userNameTxt";
             userNameTxt.Size = new Size(125, 29);
             userNameTxt.TabIndex = 2;
@@ -47,7 +47,7 @@
             // numericUpDown1
             // 
             numericUpDown1.Increment = new decimal(new int[] { 200, 0, 0, 0 });
-            numericUpDown1.Location = new Point(321, 301);
+            numericUpDown1.Location = new Point(783, 369);
             numericUpDown1.Maximum = new decimal(new int[] { 1000000, 0, 0, 0 });
             numericUpDown1.Name = "numericUpDown1";
             numericUpDown1.Size = new Size(150, 29);
@@ -56,34 +56,37 @@
             // 
             // inviaBtn
             // 
-            inviaBtn.Location = new Point(343, 369);
+            inviaBtn.BackColor = Color.FromArgb(192, 192, 255);
+            inviaBtn.Location = new Point(1048, 463);
             inviaBtn.Name = "inviaBtn";
-            inviaBtn.Size = new Size(94, 29);
+            inviaBtn.Size = new Size(114, 53);
             inviaBtn.TabIndex = 12;
             inviaBtn.Text = "Invia";
-            inviaBtn.UseVisualStyleBackColor = true;
+            inviaBtn.UseVisualStyleBackColor = false;
             inviaBtn.Click += inviaBtn_Click_1;
             // 
             // creditoTxt
             // 
-            creditoTxt.Location = new Point(246, 88);
+            creditoTxt.Location = new Point(715, 114);
             creditoTxt.Name = "creditoTxt";
+            creditoTxt.ReadOnly = true;
             creditoTxt.Size = new Size(281, 29);
             creditoTxt.TabIndex = 13;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(332, 22);
+            label1.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(761, 31);
             label1.Name = "label1";
-            label1.Size = new Size(160, 21);
+            label1.Size = new Size(183, 23);
             label1.TabIndex = 14;
             label1.Text = "Trasita verso chi vuoi!";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(167, 154);
+            label2.Location = new Point(624, 198);
             label2.Name = "label2";
             label2.Size = new Size(475, 21);
             label2.TabIndex = 15;
@@ -93,7 +96,8 @@
             // 
             AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackColor = SystemColors.GradientInactiveCaption;
+            ClientSize = new Size(1777, 744);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(creditoTxt);
