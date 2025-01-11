@@ -34,6 +34,7 @@
             creditoTxt = new TextBox();
             label1 = new Label();
             label2 = new Label();
+            label3 = new Label();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             SuspendLayout();
             // 
@@ -47,7 +48,7 @@
             // numericUpDown1
             // 
             numericUpDown1.Increment = new decimal(new int[] { 200, 0, 0, 0 });
-            numericUpDown1.Location = new Point(783, 369);
+            numericUpDown1.Location = new Point(796, 390);
             numericUpDown1.Maximum = new decimal(new int[] { 1000000, 0, 0, 0 });
             numericUpDown1.Name = "numericUpDown1";
             numericUpDown1.Size = new Size(150, 29);
@@ -79,9 +80,9 @@
             label1.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(761, 31);
             label1.Name = "label1";
-            label1.Size = new Size(183, 23);
+            label1.Size = new Size(193, 23);
             label1.TabIndex = 14;
-            label1.Text = "Trasita verso chi vuoi!";
+            label1.Text = "Transita verso chi vuoi!";
             // 
             // label2
             // 
@@ -92,12 +93,22 @@
             label2.TabIndex = 15;
             label2.Text = "Inserisci il numero di account dell'utente a cui vuoi inviare il denaro";
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(733, 338);
+            label3.Name = "label3";
+            label3.Size = new Size(247, 21);
+            label3.TabIndex = 16;
+            label3.Text = "Inserisci l'importo che vuoi inviare\r\n";
+            // 
             // InviaDenaro
             // 
             AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
             ClientSize = new Size(1777, 744);
+            Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(creditoTxt);
@@ -118,5 +129,6 @@
         private TextBox creditoTxt;
         private Label label1;
         private Label label2;
+        private Label label3;
     }
 }

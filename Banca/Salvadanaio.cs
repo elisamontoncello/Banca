@@ -23,7 +23,7 @@ namespace Banca
 
         private void VisualizzaCreditoAttuale()
         {
-            creditoAttualeLbl.Text = $"Credito attuale: {creditoDisponibile:C}";
+            creditoAttualeLbl.Text = " " + creditoDisponibile;
         }
 
 
