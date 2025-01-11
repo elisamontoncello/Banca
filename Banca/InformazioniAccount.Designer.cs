@@ -65,7 +65,7 @@
             // Label2
             // 
             Label2.AutoSize = true;
-            Label2.Location = new Point(735, 94);
+            Label2.Location = new Point(1142, 24);
             Label2.Name = "Label2";
             Label2.Size = new Size(42, 21);
             Label2.TabIndex = 1;
@@ -74,7 +74,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(632, 151);
+            label4.Location = new Point(646, 123);
             label4.Name = "label4";
             label4.Size = new Size(126, 21);
             label4.TabIndex = 3;
@@ -154,7 +154,7 @@
             // 
             // randomTxt
             // 
-            randomTxt.Location = new Point(817, 148);
+            randomTxt.Location = new Point(863, 123);
             randomTxt.Name = "randomTxt";
             randomTxt.ReadOnly = true;
             randomTxt.Size = new Size(171, 29);
@@ -219,7 +219,7 @@
             // dateLbl
             // 
             dateLbl.AutoSize = true;
-            dateLbl.Location = new Point(867, 94);
+            dateLbl.Location = new Point(1131, 68);
             dateLbl.Name = "dateLbl";
             dateLbl.Size = new Size(73, 21);
             dateLbl.TabIndex = 29;

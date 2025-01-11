@@ -39,7 +39,7 @@ namespace Banca
             {
                 creditoDisponibile -= importoDaInviare;
                 AggiornaCredito();
-                MessageBox.Show($"Invio effettuato: {importoDaInviare} a {usernameDestinatario}\nCredito rimanente: {creditoDisponibile}", "Invio Effettuato");
+                MessageBox.Show($"Invio effettuato: {importoDaInviare} € a {usernameDestinatario}\nCredito rimanente: {creditoDisponibile}", "Invio Effettuato");
                 if (CreditoAggiornato != null) // Controlla se ci sono ascoltatori per l'evento
                 {
                     CreditoAggiornato(this, creditoDisponibile); // Scatena l'evento e invia i dati
@@ -47,7 +47,7 @@ namespace Banca
             }
             else
             {
-                MessageBox.Show("Credito insufficiente per l'invio richiesto.", "Errore di Invio");
+                MessageBox.Show("Credito insufficiente per l'invio richiesto.");
             }
         }
     }

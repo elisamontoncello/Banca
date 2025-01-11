@@ -27,6 +27,13 @@ namespace Banca
             string nomeUtente = usrtxtR.Text;
             string password = passtxtR.Text;
 
+            // Verifica che i campi non siano vuoti
+            if (string.IsNullOrWhiteSpace(nomeUtente) || string.IsNullOrWhiteSpace(password)) 
+            {
+                MessageBox.Show("Nome utente e password devono essere compilati.");
+                return; 
+            }
+
             // Verifica che il nome utente non esista già nella lista utilizzando un ciclo foreach
             foreach (var i in utenti)
             {

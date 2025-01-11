@@ -33,6 +33,7 @@
             saldoLbl = new Label();
             numericUpDown1 = new NumericUpDown();
             creditoTxt = new TextBox();
+            label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             SuspendLayout();
             // 
@@ -68,7 +69,7 @@
             // numericUpDown1
             // 
             numericUpDown1.Increment = new decimal(new int[] { 200, 0, 0, 0 });
-            numericUpDown1.Location = new Point(807, 195);
+            numericUpDown1.Location = new Point(809, 282);
             numericUpDown1.Maximum = new decimal(new int[] { 1000000, 0, 0, 0 });
             numericUpDown1.Name = "numericUpDown1";
             numericUpDown1.Size = new Size(150, 29);
@@ -83,12 +84,22 @@
             creditoTxt.Size = new Size(281, 29);
             creditoTxt.TabIndex = 14;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(852, 210);
+            label2.Name = "label2";
+            label2.Size = new Size(46, 21);
+            label2.TabIndex = 15;
+            label2.Text = "Cifra:";
+            // 
             // Prelievi
             // 
             AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
             ClientSize = new Size(1769, 743);
+            Controls.Add(label2);
             Controls.Add(creditoTxt);
             Controls.Add(numericUpDown1);
             Controls.Add(saldoLbl);
@@ -108,5 +119,6 @@
         private Label saldoLbl;
         private NumericUpDown numericUpDown1;
         private TextBox creditoTxt;
+        private Label label2;
     }
 }

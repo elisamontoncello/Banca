@@ -101,8 +101,8 @@
             // salvadanioToolStripMenuItem
             // 
             salvadanioToolStripMenuItem.Name = "salvadanioToolStripMenuItem";
-            salvadanioToolStripMenuItem.Size = new Size(170, 26);
-            salvadanioToolStripMenuItem.Text = "Salvadanio";
+            salvadanioToolStripMenuItem.Size = new Size(224, 26);
+            salvadanioToolStripMenuItem.Text = "Salvadanaio";
             salvadanioToolStripMenuItem.Click += salvadanioToolStripMenuItem_Click;
             // 
             // altroToolStripMenuItem
